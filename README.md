@@ -2,7 +2,7 @@ rospock-node
 ================================
 
 Simple game that I have developed to use nodejs (best) practices
-[![Coverage Status](https://coveralls.io/repos/ziyasal/rospock-node/badge.svg?branch=master&service=github)](https://coveralls.io/github/ziyasal/rospock-node?branch=master)
+[![Build Status](https://travis-ci.org/ziyasal/rospock-node.svg)](https://travis-ci.org/ziyasal/rospock-node) [![Coverage Status](https://coveralls.io/repos/ziyasal/rospock-node/badge.svg?branch=master&service=github)](https://coveralls.io/github/ziyasal/rospock-node?branch=master)
 
 ##Requirements
 ###Node.js
