@@ -1,0 +1,32 @@
+{
+  "name": "rospock-node",
+  "version": "0.0.1",
+  "description": "Rock, Paper, Scissors game with additional weapons `lizard`,`spock` etc..",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha --check-leaks --reporter spec --bail tests/",
+    "jshint-lib": "node ./node_modules/jshint/bin/jshint lib/",
+    "jshint-tests": "node ./node_modules/jshint/bin/jshint tests/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot tests/",
+    "test-travis": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec tests/ && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "keywords": [
+    "rock",
+    "paper",
+    "scissors",
+    "lizard",
+    "spock"
+  ],
+  "author": "Ziya SARIKAYA @ziyasal <sarikayaziya@gmail.com> (http://ziyasal.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.4.0",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.4",
+    "proxyquire": "^1.7.3",
+    "should": "^7.1.1",
+    "sinon": "^1.17.2"
+  },
+  "dependencies": {}
+}
