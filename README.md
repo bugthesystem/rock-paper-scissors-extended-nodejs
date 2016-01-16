@@ -1,7 +1,10 @@
-rospock-node
+Rock, Paper, Scissors
 ================================
 
-Simple game that I have developed to use nodejs (best) practices
+`Rock`, `Paper`, `Scissors` game implementation with additional weapons support.
+
+>Rock-paper-scissors is a zero sum hand game usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. 
+
 [![Build Status](https://travis-ci.org/ziyasal/rospock-node.svg)](https://travis-ci.org/ziyasal/rospock-node) [![Coverage Status](https://coveralls.io/repos/ziyasal/rospock-node/badge.svg?branch=master&service=github)](https://coveralls.io/github/ziyasal/rospock-node?branch=master)
 
 ##Requirements
