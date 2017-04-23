@@ -7,13 +7,13 @@ Rock, Paper, Scissors
 
 [![Build Status](https://travis-ci.org/ziyasal/rospock-node.svg)](https://travis-ci.org/ziyasal/rospock-node) [![Coverage Status](https://coveralls.io/repos/ziyasal/rospock-node/badge.svg?branch=master&service=github)](https://coveralls.io/github/ziyasal/rospock-node?branch=master)
 
-##Requirements
-###Node.js
+## Requirements
+### Node.js
 Tested with node.js `v5.1.0 Stable`.
 
-##Usage
+## Usage
 
-###Install Dependencies
+### Install Dependencies
 
 **On Windows**
 ```sh
