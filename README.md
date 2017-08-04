@@ -27,32 +27,32 @@ sudo npm install
 
 ### Commands
 
-**Start Sample App**
+### Start Sample App
 ```sh
 npm start
 ```
 
-**Test**
+### Test
 ```sh
 npm test
 ```
 
-**Coverage**
+### Coverage
 ```sh
 npm run test-cov
 ```
 
-**JSHint Lib**
+###  JSHint Lib
 ```sh
 npm run jshint-lib
 ```
 
-**JSHint Tests**
+### JSHint Tests
 ```sh
 npm run jshint-tests
 ```
 
-###Used 3.Party Testing Modules
+### Used 3.Party Testing Modules
 
 [**mocha**](https://github.com/mochajs/mocha)  
 `Simple, flexible, fun javascript test framework for node.js & the browser.`  
